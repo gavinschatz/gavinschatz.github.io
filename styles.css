@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #2f3c33; /* Dark green background */
+    color: white; /* White text */
+}
+
+header {
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    margin-top: 70px; /* Adjusted to account for the fixed header height */
+    padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Enhanced H1 Styling */
+h1 {
+    font-family: 'Roboto', sans-serif; /* Consistent with the rest of the site */
+    font-size: 2em; /* Larger size for prominence */
+    font-weight: 700; /* Bold weight */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; /* Centered for balance */
+    padding-bottom: 10px; /* Space below the text */
+    border-bottom: 3px solid #2f3c33; /* Bold underline with theme color */
+    border-radius: 5px; /* Slightly rounded corners */
+    line-height: 1.3; /* Tighter line height for a compact look */
+}
+
+/* Enhanced H2 Styling */
+h2 {
+    font-family: 'Roboto', sans-serif; /* Consistent with the rest of the site */
+    font-size: 1.5em; /* Slightly smaller than h1 */
+    font-weight: 550; /* Semi-bold weight */
+    color: #333;
+    margin: 20px 0; /* Adequate spacing above and below */
+    border-bottom: 4px solid #ddd; /* Subtle underline for separation */
+    border-radius: 4px; /* Rounded corners */
+    line-height: 1.4;
+}
+
+/* Responsive Design for Headings */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+    h2 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+        margin: 20px 0; /* Adjust margins for better spacing */
+    }
+}
+
+/* Responsive Design for Navigation and Main Content */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        margin-top: 100px; /* Adjusted for smaller screens with more space for fixed header */
+        padding: 15px;
+    }
+}
+
+p {
+    font-size: 1.2em;
+}
