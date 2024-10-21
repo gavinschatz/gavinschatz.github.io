@@ -24,7 +24,6 @@ header {
 }
 
 footer {
-    padding: 10px 0;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -66,6 +65,7 @@ main {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
     border-radius: 8px; /* Rounded corners */
+    padding-bottom: 100px;
 }
 
 /* Enhanced H1 Styling */
